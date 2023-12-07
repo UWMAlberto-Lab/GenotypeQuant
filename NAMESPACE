@@ -1,0 +1,4 @@
+export("MakeAllNumberDist", "G.Estimate")
+import(adegenet)
+import(genepop)
+importFrom("graphics", "lines")

@@ -1,0 +1,16 @@
+Package: GenotypeQuant
+Type: Package
+Title: Estimates the number of genotypes present in a eDNA sample genotyped with microsatellite markers
+Version: 0.2.0
+Date: 2023-12-05
+Author: Filipe Alberto & Lauran Liggan
+Maintainer: Filipe Alberto <albertof@uwm.edu>
+Description: The method uses the count of unique (different) microsatellite alleles amplified from an eDNA sample 
+        to estimate the number of genotypes present in the sample using a numerical maximul likelihood approach.
+        In other words,the estimate is the number of genotypes that most likely generated the observed
+        counts of different alleles for each locus. The method relies on resampling an allele frequency table for the reference population
+        to generate the distribution of unique allele numbers expected in simulated samples with different numbers of gametophytes.
+        Users can estimate the number of haploid or haploid genotypes. A  correction for FIS is available. 
+Imports: adegenet, genepop
+License: GPL (>=2)
+
