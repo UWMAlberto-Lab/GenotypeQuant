@@ -1,7 +1,7 @@
 G.Estimate<-function(Obs.N.all,All.Num.Dist,ML.curve=TRUE,ploidy=1,
 										 col="black",col.est="darkcyan",col.ci="darkcyan"){
 	
-	if(!ploidy%in%c(1,2))stop("ploidy must 1 or 2")
+	if(!ploidy%in%c(1,2))stop("ploidy must be 1 or 2")
 	if(length(Obs.N.all)!=dim(All.Num.Dist)[2])stop("Obs.N.all vector needs to be of same length as the 2nd dimension in All.Num.dist array, i.e., the number of loci used")
 
   gmax<-dim(All.Num.Dist)[1]
