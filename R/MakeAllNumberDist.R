@@ -40,7 +40,7 @@ MakeAllNumberDist<-function(genotypes.df,ngametos=80,All.nchar=3,Fis=FALSE,Fis.t
   												}
   												}
   			base::write(c("You can edit this line",names(Ref.Gen)),"GenepopIN",append=T)
-  			bases::write("Pop","GenepopIN",append=T)
+  			base::write("Pop","GenepopIN",append=T)
   			N<-nrow(Ref.Gen)
   			utils::write.table(cbind(rep("Ref.Pop,",N),Ref.Gen),file="GenepopIN", append=T, quote=F, col.names=F,row.names=F )
   	
